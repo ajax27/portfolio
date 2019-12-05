@@ -16,7 +16,6 @@ exports.checkJWT = jwt({
   algorithms: ['RS256']
 })
 
-
 exports.checkRole = role => (req, res, next) => {
   const user = req.user;
 
