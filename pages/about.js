@@ -16,7 +16,7 @@ class About extends React.Component {
             <Col md="6">
               <div className="left-side">
                 <h1 className="title fadein">Hello, Welcome</h1>
-                <h4 className="subtitle fadein">To About Page</h4>
+                <h4 className="subtitle fadein">To My About Page</h4>
                 <p className="subsubTitle fadein">
                   Feel free to read short description about me.
                 </p>
@@ -32,7 +32,7 @@ class About extends React.Component {
                 <p>
                   I have been building Websites and applications for
                   several years and working on a wide range of
-                  technologies and projects from PHP development for E-Commerce
+                  technologies and projects from PHP development for E-Commerce 🛒
                   platforms to modern mobile and web applications in React, Angular, Express and
                   Node.
                 </p>
@@ -48,7 +48,7 @@ class About extends React.Component {
                   and after buying my first laptop I decided to teach myself to code.
                 </p>
                 <p>
-                  My other interests include Rugby Union, Rock Climbing and on occasion packing my rucksack and
+                  My other interests include Rugby Union 🏉, Rock Climbing ⛰ and on occasion packing my rucksack and
                   getting back to nature!
                 </p>
               </div>

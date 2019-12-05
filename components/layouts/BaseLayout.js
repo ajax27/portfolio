@@ -19,7 +19,7 @@ const BaseLayout = props => {
         <title>{title}</title>
         <meta
           name="description"
-          content="My name is Shaun Collins and I am an experienced software engineer and freelance developer. I have a Master's degree in Artificial Intelligence and several years of experience working on a wide range of technologies and projects from C++ development for ultrasound devices to modern mobile and web applications in React and Angular. Throughout my career, I have acquired advanced technical knowledge and the ability to explain programming topics clearly and in detail to a broad audience. I invite you to take my course, where I have put a lot of effort to explain web and software engineering concepts in a detailed, hands-on and understandable way."
+          content="My name is Shaun Collins and I am an experienced software engineer and freelance developer. I am totally a self-taught developer and have several years of experience working on a wide range of technologies and projects from PHP and Laravel for large E-Commerce platforms to modern mobile and web applications in JavaScript Node, React and Angular. Throughout my career, I have acquired advanced technical knowledge and the ability to explain programming topics clearly and in detail to a broad audience. I invite you to get in touch if you would like to collaborate on a project or need a free quote for a project you would like built."
         />
         <meta
           name="keywords"
@@ -27,9 +27,9 @@ const BaseLayout = props => {
         />
         <meta
           property="og:title"
-          content="Filip Jerga - programmer, developer, bloger"
+          content="Shaun Collins - programmer, developer, blogger and all round good egg!"
         />
-        <meta property="og:locale" content="en_EU" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:url" content={`${process.env.BASE_URL}`} />
         <meta property="og:type" content="website" />
         <meta

@@ -26,7 +26,7 @@ export default role => Component =>
         return (
           <BaseLayout {...this.props.auth}>
             <BasePage>
-              <h1> You are not authenticated. Please Login to access this page. </h1>
+              <h1> You are not authenticated. Please Login to access this page, or bugger off! </h1>
             </BasePage>
           </BaseLayout>
         )
@@ -34,7 +34,7 @@ export default role => Component =>
         return (
           <BaseLayout {...this.props.auth}>
             <BasePage>
-              <h1> You are not authorized. You dont have a permission to visit this page </h1>
+              <h1> You are not authorized. You dont have a permission to visit this page! </h1>
             </BasePage>
           </BaseLayout>
         )

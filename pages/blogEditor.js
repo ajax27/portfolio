@@ -1,13 +1,10 @@
 import React from 'react';
 import BaseLayout from '../components/layouts/BaseLayout';
 import BasePage from '../components/BasePage';
-
 import withAuth from '../components/hoc/withAuth';
 import { Router } from '../routes';
-
 import SlateEditor from '../components/slate-editor/Editor';
 import { toast } from 'react-toastify';
-
 import { createBlog } from '../actions';
 
 class BlogEditor extends React.Component {
@@ -23,24 +20,23 @@ class BlogEditor extends React.Component {
     this.saveBlog = this.saveBlog.bind(this);
   }
 
-
   saveBlog(story, heading) {
-    const {lockId} = this.state;
+    const { lockId } = this.state;
     const blog = {};
     blog.title = heading.title;
     blog.subTitle = heading.subtitle;
     blog.story = story;
 
-    this.setState({isSaving: true});
+    this.setState({ isSaving: true });
 
     createBlog(blog, lockId).then(createdBlog => {
-      this.setState({isSaving: false});
+      this.setState({ isSaving: false });
       toast.success('Blog Saved Succesfuly!');
       Router.pushRoute(`/blogs/${createdBlog._id}/edit`);
     }).catch(err => {
-      this.setState({isSaving: false});
-      toast.error('Unexpected Error, Copy your progress and refresh browser please.');
-      const message = err.message || 'Server Error!';
+      this.setState({ isSaving: false });
+      toast.error('Unexpected Error, Copy your progress and refresh the browser please :(');
+      const message = err.message || 'Server Error :(';
       console.error(message);
     })
   }

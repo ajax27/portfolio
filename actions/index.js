@@ -36,6 +36,8 @@ export const getSecretData = async (req) => {
   return await axiosInstance.get(url, setAuthHeader(req)).then(response => response.data);
 }
 
+//--------------- Portfolio Actions ----------------
+
 export const getPortfolios = async () => {
   return await axiosInstance.get('/portfolios').then(response => response.data);
 }

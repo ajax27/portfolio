@@ -41,9 +41,11 @@
   }
 
   .port-navbar-brand {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1.8rem;
-    font-style: oblique;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    line-height: 1;
   }
 
   .port-dropdown-menu {

@@ -117,7 +117,7 @@ class Index extends React.Component {
                   fadeOutDelay={1000}
                   loopCount={0}
                   showCursor
-                  cursorChar="|"
+                  cursorChar="..."
                 />
                 <div className="hero-welcome-bio">
                   <h4>Feel free to check out my Blog</h4>

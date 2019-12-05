@@ -1,13 +1,10 @@
 import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
 import BasePage from "../components/BasePage";
-
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "../routes";
-
 import { getBlogs } from "../actions";
 import { shortenText } from "../helpers/utils";
-
 import moment from "moment";
 
 class Blogs extends React.Component {
@@ -104,7 +101,7 @@ class Blogs extends React.Component {
                     </li>
                   </ul>
                   <p className="copyright text-muted">
-                    Copyright &copy; Ajax27 2019
+                    Copyright &copy; Ajax27 2016 - 2019
                   </p>
                 </div>
               </Row>

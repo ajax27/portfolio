@@ -4,7 +4,6 @@ import moment from 'moment';
 
 class PortfolioCardDetail extends React.Component {
 
-
   render() {
     const { isOpen, toggle, portfolio } = this.props;
 
