@@ -1,0 +1,77 @@
+// HEADER
+@import "./shared/colors";
+
+.port-navbar.port-nav-base {
+  width: 100%;
+  z-index: 15;
+  padding: 40px;
+
+  .port-navbar {
+    &-brand {
+      color: #080175;
+      font-size: 26px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 3px #fff;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      font-style: italic;
+    }
+
+    &-item {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    &-link {
+      color: white;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      font-size: 18px;
+      text-transform: uppercase;
+
+      &.active {
+        color: #080175;
+      }
+
+      &:hover,
+      &:focus {
+        color: #080175;
+      }
+    }
+  }
+
+  .port-navbar-brand {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    font-style: oblique;
+  }
+
+  .port-dropdown-menu {
+    .port-dropdown-item {
+      color: #080175;
+
+      &.active {
+        background-color: #59cccc;
+      }
+    }
+    .port-dropdown-toggle {
+      color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.bg-transparent.menu-open {
+  background-color: rgb(104, 154, 201) !important;
+}
+
+.bg-transparent.menu-close {
+  transition: 1s;
+}
+
+// --------- DEFAULT HEADER -------------
+.port-navbar.port-nav-base.port-nav-default {
+  padding: 30px;
+  background-color: $secondary !important;
+}

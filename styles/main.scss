@@ -1,0 +1,83 @@
+// SHARED
+@import "./shared/fonts";
+@import "./shared/colors";
+@import "./shared/mixins";
+
+// HEADER COMPONENT
+@import "./header";
+@import "./slate-editor";
+
+// PAGES
+@import "./index";
+@import "./portfolios";
+@import "./blogs";
+@import "./about";
+@import "./cv";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arsenal", "Helvetica", sans-serif;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.self-typed {
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #2d0166;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.error {
+  font-weight: 600;
+  color: #8f0606;
+  background-color: #f8a0a0;
+  text-align: center;
+}
+
+.btn-form {
+  border: 1px solid #551515;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 120px;
+}
+
+.btn-dev {
+  margin-top: 4px;
+  border: 1px solid #530909;
+}
+
+.btn-date {
+  margin-left: 4px;
+  border: 1px solid #530909;
+}
+
+// --------- BASE PAGE -------------
+
+.base-page {
+  padding: 150px 0 100px 0;
+  color: black;
+  background-color: #ecedee;
+  min-height: 100vh;
+
+  .page-header {
+    .page-header-title {
+      font-weight: 700;
+      color: black;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// --------- BASE PAGE END -------------
