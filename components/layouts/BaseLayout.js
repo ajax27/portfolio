@@ -27,7 +27,7 @@ const BaseLayout = props => {
         />
         <meta
           property="og:title"
-          content="Shaun Collins - programmer, developer, blogger and all round good egg!"
+          content="Shaun Collins - programmer, developer, blogger and lover of all things Code!"
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:url" content={`${process.env.BASE_URL}`} />
